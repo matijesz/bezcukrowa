@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NA SŁODKO | ARTYSTYCZNE TORTY</title>
+    <title>BEZCUKROWA | ZDROWE WYPIEKI ARTYSTYCZNE</title>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <style>
         :root {
@@ -23,7 +23,6 @@
             scroll-behavior: smooth;
         }
 
-        /* Nawigacja */
         nav {
             display: flex;
             justify-content: space-between;
@@ -63,7 +62,6 @@
             transition: 0.3s;
         }
 
-        /* Hero Section */
         header {
             height: 100vh;
             position: relative;
@@ -71,14 +69,14 @@
             align-items: center;
             justify-content: center;
             text-align: center;
-            background: url('https://images.unsplash.com/photo-1535141192574-5d4897c12636?auto=format&fit=crop&w=1500&q=80') center/cover;
+            background: url('https://images.unsplash.com/photo-1495147466023-ac5c588e2e94?auto=format&fit=crop&w=1500&q=80') center/cover;
             color: var(--white);
         }
 
         .overlay {
             position: absolute;
             top: 0; left: 0; width: 100%; height: 100%;
-            background: rgba(0, 0, 0, 0.6);
+            background: rgba(0, 0, 0, 0.4);
             z-index: 1;
         }
 
@@ -89,17 +87,14 @@
             margin-bottom: 10px;
         }
 
-        /* Sekcje */
         section { padding: 100px 10%; text-align: center; }
         .section-title { margin-bottom: 50px; }
         .section-title h2 { font-family: 'Playfair Display', serif; font-size: 2.5rem; }
         .section-title div { width: 50px; height: 3px; background: var(--accent); margin: 15px auto; }
 
-        /* O Nas */
         #o-nas { background: var(--white); }
         .about-content { max-width: 800px; margin: 0 auto; line-height: 1.8; text-transform: none; }
 
-        /* Oferta */
         .grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -112,12 +107,10 @@
             box-shadow: 0 5px 20px rgba(0,0,0,0.05);
         }
 
-        /* Kontakt */
         #kontakt { background: #f9f9f9; }
         .contact-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 40px; text-align: left; }
         .info-item { margin-bottom: 20px; }
         .info-item h4 { margin-bottom: 10px; color: var(--accent); }
-        .map-frame { width: 100%; height: 300px; border: 0; filter: grayscale(1); }
 
         @media screen and (max-width: 768px) {
             .nav-links {
@@ -141,7 +134,7 @@
 <body>
 
     <nav>
-        <div class="logo">NA SŁODKO</div>
+        <div class="logo">BEZCUKROWA</div>
         <ul class="nav-links">
             <li><a href="#home">START</a></li>
             <li><a href="#o-nas">O NAS</a></li>
@@ -158,38 +151,38 @@
     <header id="home">
         <div class="overlay"></div>
         <div class="hero-text">
-            <h1>NA SŁODKO</h1>
-            <p>ARTYSTYCZNE WYPIEKI OPOLE</p>
+            <h1>BEZCUKROWA</h1>
+            <p>SŁODKOŚCI BEZ POCZUCIA WINY</p>
         </div>
     </header>
 
     <section id="o-nas">
         <div class="section-title">
-            <h2>O NASZEJ PASJI</h2>
+            <h2>NASZA FILOZOFIA</h2>
             <div></div>
         </div>
         <div class="about-content">
-            <p>NA SŁODKO TO MIEJSCE, GDZIE CUKIERNICTWO SPOTYKA SIĘ ZE SZTUKĄ. NASZĄ SPECJALNOŚCIĄ SĄ UNIKALNE TORTY I DESERY, KTÓRE ZACHWYCAJĄ NIE TYLKO SMAKIEM, ALE I PRECYZJĄ WYKONANIA. KAŻDY WYPIEK TWORZYMY Z WYSELEKCJONOWANYCH, NATURALNYCH SKŁADNIKÓW, DBAJĄC O NAJMNIEJSZY DETAL.</p>
+            <p>BEZCUKROWA POWSTAŁA Z MIŁOŚCI DO SŁODKOŚCI I ZDROWEGO STYLU ŻYCIA. UDOWADNIAMY, ŻE WYŚMIENITY TORT MOŻE POWSTAĆ BEZ DODATKU BIAŁEGO CUKRU. KORZYSTAMY Z NATURALNYCH SŁODZIKÓW, OWOCÓW I NAJLEPSZYCH SKŁADNIKÓW, BY KAŻDY KĘS BYŁ CZYSTĄ PRZYJEMNOŚCIĄ.</p>
         </div>
     </section>
 
     <section id="oferta">
         <div class="section-title">
-            <h2>NASZA OFERTA</h2>
+            <h2>ZDROWE SŁODKOŚCI</h2>
             <div></div>
         </div>
         <div class="grid">
             <div class="card">
-                <h3>TORTY WESELNE</h3>
-                <p style="text-transform: none; margin-top: 15px;">INDYWIDUALNE PROJEKTY, KTÓRE STANĄ SIĘ OZDOBĄ WASZEGO DNIA.</p>
+                <h3>TORTY FIT</h3>
+                <p style="text-transform: none; margin-top: 15px;">LEKKIE I PYSZNE PROJEKTY SŁODZONE ERYTRYTOLEM LUB KSYLITOLEM.</p>
             </div>
             <div class="card">
-                <h3>MONOPORCJE</h3>
-                <p style="text-transform: none; margin-top: 15px;">NOWOCZESNE DESERY DLA TYCH, KTÓRZY SZUKAJĄ CZEGOŚ WYJĄTKOWEGO.</p>
+                <h3>DESERY VEGE</h3>
+                <p style="text-transform: none; margin-top: 15px;">NOWOCZESNE MONOPORCJE WOLNE OD CUKRU I PRODUKTÓW ODZWIERZĘCYCH.</p>
             </div>
             <div class="card">
-                <h3>SŁODKIE STOŁY</h3>
-                <p style="text-transform: none; margin-top: 15px;">KOMPLEKSOWA OPRAWA SŁODKOŚCI NA KAŻDĄ OKAZJĘ.</p>
+                <h3>SŁODKIE STOŁY FIT</h3>
+                <p style="text-transform: none; margin-top: 15px;">ZDROWA ALTERNATYWA NA WESELA I IMPREZY OKOLICZNOŚCIOWE.</p>
             </div>
         </div>
     </section>
@@ -223,17 +216,14 @@
     </section>
 
     <footer>
-        <p>NA SŁODKO &copy; 2026 | WSZYSTKIE PRAWA ZASTRZEŻONE</p>
+        <p>BEZCUKROWA &copy; 2026 | WSZYSTKIE PRAWA ZASTRZEŻONE</p>
     </footer>
 
     <script>
         const burger = document.querySelector('.burger');
         const nav = document.querySelector('.nav-links');
-
         burger.addEventListener('click', () => {
             nav.classList.toggle('active');
-            burger.classList.toggle('toggle');
-            
             if(nav.classList.contains('active')) {
                 document.querySelector('.line1').style.transform = 'rotate(-45deg) translate(-5px, 6px)';
                 document.querySelector('.line2').style.opacity = '0';
